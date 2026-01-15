@@ -2,7 +2,7 @@
 const translations = {
     en: {
         pageTitle: "Professional Portfolio | Accountant & Administrative Coordinator",
-        logo: "Rebaz<span>(Portfolio)</span>",
+        logo: "Rebaz <span>(Portfolio)</span>",
         navAbout: "About",
         navRoles: "Roles",
         navSkills: "Skills",
@@ -254,7 +254,7 @@ const translations = {
     },
     ku: {
         pageTitle: "پۆرتفۆلیۆی پیشەیی | ژمێریار و ڕێکخەری کارگێڕی",
-        logo: "ڕێباز<span>(پۆرتفۆلیۆ)</span>",
+        logo: "ڕێباز <span>(پۆرتفۆلیۆ)</span>",
         navAbout: "دەربارە",
         navRoles: "ڕۆڵەکان",
         navSkills: "تواناکان",
@@ -493,3 +493,4 @@ document.addEventListener('DOMContentLoaded', () => {
     const savedLang = localStorage.getItem('lang') || 'en';
     applyLanguage(savedLang);
 });
+
