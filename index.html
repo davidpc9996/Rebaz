@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="pageTitle">Professional Portfolio | Accountant & Administrative Coordinator</title>
+    <meta name="description"
+        content="Professional portfolio of an Accountant, Administrative Coordinator, and Teacher. Experienced in HR, management, and education.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <a href="#hero" class="logo" data-i18n="logo">My<span>Portfolio</span></a>
+
+            <div class="nav-controls">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#about" data-i18n="navAbout">About</a></li>
+                        <li><a href="#roles" data-i18n="navRoles">Roles</a></li>
+                        <li><a href="#skills" data-i18n="navSkills">Skills</a></li>
+                        <li><a href="#experience" data-i18n="navExperience">Experience</a></li>
+                        <li><a href="#education" data-i18n="navEducation">Education</a></li>
+                        <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="controls">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <select id="lang-select" class="lang-select" aria-label="Select Language">
+                        <option value="en">English</option>
+                        <option value="ar">العربية</option>
+                        <option value="ku">کوردی</option>
+                    </select>
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 data-i18n="heroGreeting">Hello, I'm <span class="highlight">Rebaz Jasim Othman</span></h1>
+                    <p class="subtitle" data-i18n="heroSubtitle">Accountant | Administrative Coordinator | Teacher</p>
+                    <p class="bio" data-i18n="heroBio">A versatile professional with diverse experience in
+                        administration, education, and management. Dedicated to maintaining high standards of accuracy,
+                        organization, and communication.</p>
+                    <a href="#contact" class="btn primary-btn" data-i18n="btnContact">Contact Me</a>
+                    <a href="#experience" class="btn secondary-btn" data-i18n="btnViewWork">View Work</a>
+                </div>
+                <div class="hero-image">
+                    <!-- User Image -->
+                    <img src="https://i.imgur.com/v44ERH8.jpeg" alt="Rebaz Jasim Othman" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title" data-i18n="sectionAbout">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h3 data-i18n="aboutProfTitle">Professional</h3>
+                        <p data-i18n="aboutProfDesc">Experienced in diverse roles ranging from HR fundamentals and
+                            management to procurement and logistics.</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fas fa-tasks"></i>
+                        <h3 data-i18n="aboutOrgTitle">Organized</h3>
+                        <p data-i18n="aboutOrgDesc">Highly accurate and organized with strong problem-solving and
+                            critical thinking skills.</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fas fa-users"></i>
+                        <h3 data-i18n="aboutCollabTitle">Collaborative</h3>
+                        <p data-i18n="aboutCollabDesc">Excellent teamwork, communication, and leadership capabilities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Roles -->
+        <section id="roles" class="bg-light">
+            <div class="container">
+                <h2 class="section-title" data-i18n="sectionRoles">Professional Roles</h2>
+                <div class="roles-grid">
+                    <div class="role-card">
+                        <div class="icon-box"><i class="fas fa-calculator"></i></div>
+                        <h3 data-i18n="roleAccountant">Accountant</h3>
+                        <p data-i18n="roleAccountantDesc">Skilled in financial record keeping, accuracy, and maintaining
+                            confidentiality.</p>
+                    </div>
+                    <div class="role-card">
+                        <div class="icon-box"><i class="fas fa-clipboard-list"></i></div>
+                        <h3 data-i18n="roleAdmin">Administrative Coordinator</h3>
+                        <p data-i18n="roleAdminDesc">Expertise in efficient office administration, coordination, and
+                            management principles.</p>
+                    </div>
+                    <div class="role-card">
+                        <div class="icon-box"><i class="fas fa-chalkboard-teacher"></i></div>
+                        <h3 data-i18n="roleTeacher">Teacher</h3>
+                        <p data-i18n="roleTeacherDesc">Experienced ESL and primary school teacher, delivering lessons in
+                            English, Science, and Math.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title" data-i18n="sectionSkills">Skills & Expertise</h2>
+
+                <div class="skills-wrapper">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-star"></i> <span data-i18n="skillKeyTitle">Key Skills</span></h3>
+                        <ul class="skill-list">
+                            <li data-i18n="skillTeamwork">Teamwork Skills</li>
+                            <li data-i18n="skillComm">Communication</li>
+                            <li data-i18n="skillLeadership">Leadership Skills</li>
+                            <li data-i18n="skillCritical">Critical Thinking</li>
+                            <li data-i18n="skillComputer">Computer Skills</li>
+                            <li data-i18n="skillManagement">Management Skills</li>
+                            <li data-i18n="skillFlexibility">Flexibility</li>
+                            <li data-i18n="skillConfidentiality">Maintains Confidentiality</li>
+                            <li data-i18n="skillAccuracy">Accurate and Organized</li>
+                            <li data-i18n="skillProblem">Problem Solving Skills</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-desktop"></i> <span data-i18n="skillSoftTitle">Software</span></h3>
+                        <ul class="skill-list">
+                            <li data-i18n="softOffice">Microsoft Office Suite (Word, Excel, PowerPoint, Outlook)</li>
+                            <li data-i18n="softArcGIS">ArcGIS Pro & Google Earth Pro</li>
+                            <li data-i18n="softBase">Base-map & Basecamp</li>
+                            <li data-i18n="softWebMap">Web Map</li>
+                            <li data-i18n="softMail">Microsoft Outlook & Regular Mail</li>
+                            <li data-i18n="softResearch">Online Research Tools</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-globe"></i> <span data-i18n="skillLangTitle">Languages</span></h3>
+                        <ul class="language-list">
+                            <li data-i18n="langKurdish"><strong>Kurdish:</strong> Native</li>
+                            <li data-i18n="langEnglish"><strong>English:</strong> Fluent</li>
+                            <li data-i18n="langArabic"><strong>Arabic:</strong> Very Good</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section id="experience" class="bg-light">
+            <div class="container">
+                <h2 class="section-title" data-i18n="sectionExperience">Work Experience</h2>
+                <div class="timeline">
+                    <!-- LASS -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date" data-i18n="dateLass">May 2025 - Present</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="roleLassTitle">Accountant & Admin – Warranty</h3>
+                            <h4>LASS</h4>
+                            <p><strong data-i18n="dutiesAccountant">Accountant Duties:</strong></p>
+                            <ul class="job-details">
+                                <li data-i18n="lassAcc1">Review, clear, and post employee expense invoices in accordance
+                                    with company policies.</li>
+                                <li data-i18n="lassAcc2">Create and manage Sales Orders, Deliveries, and Customer
+                                    Invoices in the Odoo ERP system.</li>
+                                <li data-i18n="lassAcc3">Record customer receipts, allocate payments, and reconcile
+                                    customer accounts.</li>
+                                <li data-i18n="lassAcc4">Process vendor payments, monitor Accounts Payable, and ensure
+                                    timely settlements.</li>
+                                <li data-i18n="lassAcc5">Prepare and issue Purchase Orders and record Goods Receipts
+                                    (GRN) in the system.</li>
+                                <li data-i18n="lassAcc6">Maintain and reconcile Accounts Receivable (AR) and Accounts
+                                    Payable (AP) balances.</li>
+                                <li data-i18n="lassAcc7">Record daily journal entries and ensure accurate posting to the
+                                    general ledger.</li>
+                                <li data-i18n="lassAcc8">Monitor daily accounting transactions and support monthly
+                                    closing activities.</li>
+                            </ul>
+                            <p style="margin-top: 10px;"><strong data-i18n="dutiesWarranty">Warranty Duties:</strong>
+                            </p>
+                            <ul class="job-details">
+                                <li data-i18n="lassWar1">Submit warranty claims in line with company and supplier
+                                    procedures (phone/email).</li>
+                                <li data-i18n="lassWar2">Coordinate with relevant departments to ensure timely claim
+                                    processing.</li>
+                                <li data-i18n="lassWar3">Maintain and update warranty claim databases/records and track
+                                    claim status.</li>
+                                <li data-i18n="lassWar4">Respond to warranty-related inquiries professionally and
+                                    organize supporting documents.</li>
+                                <li data-i18n="lassWar5">Ensure warranty processes comply with company policies.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- MAG Admin -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date" data-i18n="dateMagAdmin">Nov 2021 - Mar 2025</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="roleMagAdminTitle">Admin Coordinator</h3>
+                            <h4>MAG (Mine Advisory Group)</h4>
+                            <ul class="job-details">
+                                <li data-i18n="magAdmin1">Manage MAG Erbil Head Office and MAG IQ guesthouses, ensuring
+                                    safe/adequate conditions and Health & Safety compliance.</li>
+                                <li data-i18n="magAdmin2">Draft/prepare official letters and assist Country
+                                    Admin/Liaison Manager with coverage.</li>
+                                <li data-i18n="magAdmin3">Provide administrative coverage for Baghdad Office Manager
+                                    (including DNGO permissions).</li>
+                                <li data-i18n="magAdmin4">Translate administrative/liaison documents and maintain
+                                    archiving systems (online/physical).</li>
+                                <li data-i18n="magAdmin5">Manage accommodations, hotel bookings (conferences/rooms), and
+                                    internal flight bookings.</li>
+                                <li data-i18n="magAdmin6">Supervise housekeepers, receptionists, and maintenance
+                                    technicians.</li>
+                                <li data-i18n="magAdmin7">Coordinate monthly communication/phone allowances and
+                                    circulate visitor checklists.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- MAG Safeguarding -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date" data-i18n="dateMagSafe">Jan 2021 - Nov 2021</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="roleMagSafeTitle">Safeguarding Focal Point</h3>
+                            <h4>MAG (Mine Advisory Groups)</h4>
+                            <ul class="job-details">
+                                <li data-i18n="magSafe1">Updating operations staff on new updates of Safeguarding.</li>
+                                <li data-i18n="magSafe2">Making sure that all operations staff understand and comply
+                                    with safeguarding regulation and polices.</li>
+                                <li data-i18n="magSafe3">Counselling operations staff on any safeguarding concerns and
+                                    raising their concerns.</li>
+                                <li data-i18n="magSafe4">Guiding and directing staff to go through proper channels when
+                                    raising their concerns.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- MAG Field Support -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date" data-i18n="dateMagField">Jun 2018 - Nov 2021</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="roleMagFieldTitle">Field Support Officer</h3>
+                            <h4>MAG (Mine Advisory Groups)</h4>
+                            <ul class="job-details">
+                                <li data-i18n="magField1">Interpretation in the field on daily basis.</li>
+                                <li data-i18n="magField2">Checking and sending Survey123 reports.</li>
+                                <li data-i18n="magField3">Entering and maintaining data to Monthly databases on daily
+                                    basis.</li>
+                                <li data-i18n="magField4">Producing Progress maps, Completion Maps and any other
+                                    required maps.</li>
+                                <li data-i18n="magField5">Producing Progress Reports and Completion Reports.</li>
+                                <li data-i18n="magField6">Help and support the Supervisors with Clearance plans.</li>
+                                <li data-i18n="magField7">Training the Teams on new Systems.</li>
+                                <li data-i18n="magField8">Attending weekly operation meetings and taking minutes if
+                                    required.</li>
+                                <li data-i18n="magField9">Keeping OPS Room up to date and Archiving box files.</li>
+                                <li data-i18n="magField10">Support the Team leaders with daily Reports and any other
+                                    required documents.</li>
+                                <li data-i18n="magField11">Updating Briefing Boards for the Teams.</li>
+                                <li data-i18n="magField12">Working as medium between TFM, Site Supervisors and Community
+                                    Liaison teams.</li>
+                                <li data-i18n="magField13">Providing support to the Program and communication
+                                    Department.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Teaching Roles -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date" data-i18n="dateNirozh">2015 - 2017</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="roleTeacher">Teacher</h3>
+                            <h4>Nirozh International Primary School</h4>
+                            <p data-i18n="roleNirozhDesc">As a classroom teacher delivered everyday lessons of English,
+                                Science and Mathematics.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date" data-i18n="dateMaccos">4 Courses - 2017</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="roleEslTeacher">ESL Teacher</h3>
+                            <h4>Maccos ESL Center</h4>
+                            <p data-i18n="roleEslDesc">Teaching English language as a second language.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date" data-i18n="dateKurdistan">1 Course - 2017</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="roleEslTeacher">ESL Teacher</h3>
+                            <h4>Kurdistan Woman Association</h4>
+                            <p data-i18n="roleEslDesc">Teaching English language as a second language.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certification -->
+        <section id="education">
+            <div class="container">
+                <h2 class="section-title" data-i18n="sectionEducation">Education & Training</h2>
+
+                <div class="edu-grid">
+                    <div class="edu-column">
+                        <h3><i class="fas fa-graduation-cap"></i> <span data-i18n="eduEduTitle">Education</span></h3>
+                        <div class="edu-card">
+                            <h4 data-i18n="eduDegree">Bachelor in English Language</h4>
+                            <p class="edu-inst" data-i18n="eduUni">Salahaddin University - College of Languages</p>
+                            <p class="edu-year" data-i18n="eduDate">2014 - 2015</p>
+                        </div>
+                    </div>
+
+                    <div class="edu-column">
+                        <h3><i class="fas fa-certificate"></i> <span data-i18n="eduTrainTitle">Certified
+                                Trainings</span></h3>
+                        <ul class="training-list">
+                            <li data-i18n="train1">Fundaments of HR at mselect recruiter - 2025</li>
+                            <li data-i18n="train2">Procurement and Logistics Workshop at MAG – 2024</li>
+                            <li data-i18n="train3">People Management at MAG – 2024</li>
+                            <li data-i18n="train4">Event Management at mselect recruiter - 2022</li>
+                            <li data-i18n="train5">Human Resources Management (online) at Top Target Academy - 2021</li>
+                            <li data-i18n="train6">HR Management at American Corner – 2021</li>
+                            <li data-i18n="train7">Principles of Modern and Successful Management at Stratford
+                                University (Erbil) - 2019</li>
+                            <li data-i18n="train8">Human Development at Student Development Organization - 2015</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-dark">
+            <div class="container">
+                <h2 class="section-title text-white" data-i18n="sectionContact">Contact Me</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:rebaz.te@gmail.com">rebaz.te@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+9647518233611" dir="ltr">+964 751 823 3611</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p data-i18n="location">Iraq - Erbil</p>
+                        </div>
+                    </div>
+
+                    <div class="references">
+                        <h3 class="text-white" data-i18n="sectionRef">References</h3>
+                        <div class="ref-grid">
+                            <div class="ref-card">
+                                <h4>Nabaz Mohammed</h4>
+                                <p data-i18n="ref1Role">Information Management Coordinator</p>
+                                <a
+                                    href="mailto:Nabaz.Mohammed@maginternational.org">Nabaz.Mohammed@maginternational.org</a>
+                            </div>
+                            <div class="ref-card">
+                                <h4>Sazan Bayar</h4>
+                                <p data-i18n="ref2Role">Human Resources Coordinator</p>
+                                <a href="mailto:sazan.bayar@maginternational.org">sazan.bayar@maginternational.org</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footerRights">&copy; 2026 Professional Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
